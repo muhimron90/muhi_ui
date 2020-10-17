@@ -1,0 +1,53 @@
+{
+  "name": "muhi_ui",
+  "version": "1.0.0",
+  "private": "true",
+  "description": "package components",
+  "main": "index.js",
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cm": "cz",
+    "commitzen": "npx commitizen init cz-conventional-changelog --save-dev --save-exact"
+  },
+  "workspaces": [
+    "packages/**",
+    "example/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muhimron90/muhi_ui.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muhimron90/muhi_ui/issues"
+  },
+  "homepage": "https://github.com/muhimron90/muhi_ui#readme",
+  "devDependencies": {
+    "commitizen": "^4.2.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^4.3.0",
+    "lerna": "^3.22.1"
+  },
+  "husky": {
+    "hooks": {
+      "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true"
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog",
+      "disableScopeLowerCase": false,
+      "disableSubjectLowerCase": false,
+      "maxHeaderWidth": 100,
+      "maxLineWidth": 100,
+      "defaultType": "",
+      "defaultScope": "",
+      "defaultSubject": "",
+      "defaultBody": "",
+      "defaultIssues": ""
+    }
+  }
+}
