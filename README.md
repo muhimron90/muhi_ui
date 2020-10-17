@@ -8,7 +8,7 @@
 
 ---
 
-[![Muhi-UI](https://img.shields.io/github/v/tag/muhimron90/muhi-ui?color=green&label=Version&style=flat-square)](https://github.com/muhimron90/muhi_ui/tags) [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/muhimron90/muhi_ui/blob/main/LICENSE)
+[![Muhi-UI](https://img.shields.io/github/v/tag/muhimron90/muhi_ui?color=green&label=Version&style=flat-square)](https://github.com/muhimron90/muhi_ui/tags) [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/muhimron90/muhi_ui/blob/main/LICENSE)
 
 ```
  still under personal experimental version
