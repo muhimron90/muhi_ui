@@ -17,7 +17,7 @@
     "build": "lerna run build",
     "build:test": "lerna run build --scope {@muhi-ui/m-button,@muhi-ui/m-text}",
     "new-version": "lerna version --yes",
-    "publish": "lerna publish",
+    "publish": "lerna publish --canary --yes ",
     "publish:git": "lerna publish from-git",
     "publish:pack": "lerna publish from-package",
     "sb:docs": "start-storybook -p 5050",
