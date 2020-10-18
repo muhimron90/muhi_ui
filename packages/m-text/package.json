@@ -1,6 +1,6 @@
 {
   "name": "@muhi-ui/m-text",
-  "version": "1.0.3-alpha.2+6d06874",
+  "version": "1.0.3-alpha.3+0012947",
   "description": "text components",
   "keywords": [],
   "author": "muhimron90 <muh.imron90@gmail.com>",
@@ -32,7 +32,7 @@
     "url": "https://github.com/muhimron90/muhi_ui/issues"
   },
   "devDependencies": {
-    "@muhi-ui/builder": "^1.0.3-alpha.2+6d06874",
+    "@muhi-ui/builder": "^1.0.3-alpha.3+0012947",
     "prop-types": "^15.7.2",
     "react": "^16.14.0"
   },
@@ -42,5 +42,5 @@
   "dependencies": {
     "clsx": "^1.1.1"
   },
-  "gitHead": "6d068742323a0feb02cb867754684a99e7d139bf"
+  "gitHead": "0012947fcbac024499c58ce3c942906ea596dd4b"
 }
