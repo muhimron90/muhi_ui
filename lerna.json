@@ -1,20 +1,11 @@
 {
-  "packages": [
-    "packages/*",
-    "example/*"
-  ],
+  "packages": ["packages/*", "example/*"],
   "version": "1.0.4",
   "hoist": true,
   "stream": true,
   "command": {
-    "publish": {
-      "registry": "https://registry.npmjs.org/",
-      "npmClient": "npm"
-    },
     "bootstrap": {
-      "npmClientArgs": [
-        "--no-package-lock"
-      ]
+      "npmClientArgs": ["--no-package-lock"]
     }
   },
   "npmClient": "npm"
