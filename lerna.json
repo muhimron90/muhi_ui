@@ -1,6 +1,9 @@
 {
-  "packages": ["packages/*", "example/*"],
-  "version": "1.0.2",
+  "packages": [
+    "packages/*",
+    "example/*"
+  ],
+  "version": "1.0.3",
   "hoist": true,
   "stream": true,
   "command": {
@@ -9,7 +12,9 @@
       "npmClient": "npm"
     },
     "bootstrap": {
-      "npmClientArgs": ["--no-package-lock"]
+      "npmClientArgs": [
+        "--no-package-lock"
+      ]
     }
   },
   "npmClient": "npm"
