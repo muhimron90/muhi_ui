@@ -32,7 +32,7 @@
     "url": "https://github.com/muhimron90/muhi_ui/issues"
   },
   "devDependencies": {
-    "@muhi-ui/builder": "^2.0.0",
+    "@muhi-ui/builder": "^1.0.0",
     "prop-types": "^15.7.2",
     "react": "^16.14.0"
   },
