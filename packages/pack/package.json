@@ -31,10 +31,10 @@
     "url": "https://github.com/muhimron90/muhi_ui/issues"
   },
   "dependencies": {
-    "@muhi-ui/m-button": "^1.0.0",
-    "@muhi-ui/m-text": "^1.0.0"
+    "@muhi-ui/m-button": "^2.0.0",
+    "@muhi-ui/m-text": "^2.0.0"
   },
   "devDependencies": {
-    "@muhi-ui/builder": "^1.0.0"
+    "@muhi-ui/builder": "^2.0.0"
   }
 }

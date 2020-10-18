@@ -16,6 +16,7 @@
     "build:lib": "lerna add @muhi-ui/builder --dev --scope '{@muhi-ui/pack,@muhi-ui/m-button,@muhi-ui/m-text}'",
     "build": "lerna run build",
     "build:test": "lerna run build --scope {@muhi-ui/m-button,@muhi-ui/m-text}",
+    "new-version": "lerna version --yes",
     "publish": "lerna publish",
     "publish:git": "lerna publish from-git",
     "publish:pack": "lerna publish from-package",
@@ -23,7 +24,7 @@
     "sb:build": "build-storybook",
     "sb:deploy": "npm run sb:build && gh-pages -d storybook-static",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cm": "cz",
+    "cm": "git cz --hook",
     "commitzen": "npx commitizen init cz-conventional-changelog --save-dev --save-exact",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
