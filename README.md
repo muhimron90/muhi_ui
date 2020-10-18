@@ -2,7 +2,7 @@
 <img src="https://raw.githubusercontent.com/muhimron90/muhi-ui/master/src/assets/logo.png" alt="Muhi-Ui Logo" width="150" height="150">
 <div">
 <h2 style="text-align:center;">Muhi-UI Components Library</h2>
-<p style="text-align:center;">Simple Component UI for react or CRA development. Let's Start with <a href="https://muhimron90.github.io/muhi-ui/#section-installation">Muhi-UI</a><p>
+<p style="text-align:center;">Simple Component UI for react or CRA development. Let's Start with <a href="https://muhimron90.github.io/muhi_ui/">Muhi-UI</a><p>
 </div>
 </div>
 
@@ -17,4 +17,4 @@
 
 # muhi_ui
 
-package components
+React package components
