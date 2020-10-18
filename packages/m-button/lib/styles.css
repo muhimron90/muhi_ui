@@ -1,0 +1,27 @@
+.btn__style {
+  background-color: #3498db;
+  border-radius: 0.25rem;
+  border: 1px solid #3498db;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 0.75rem 1rem;
+  transition: all 100ms ease-in-out;
+  width: auto;
+  outline: none;
+}
+.btn__style:hover,
+.btn__style:focus {
+  background-color: #2980b9;
+  border-color: #2980b9;
+}
+.btn__second {
+  background: transparent;
+  border-color: #fff;
+}
+.btn__second:hover,
+.btn__second:focus {
+  background: #fff;
+  border-color: #fff;
+  color: #000;
+}

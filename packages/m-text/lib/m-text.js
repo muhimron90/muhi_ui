@@ -1,8 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Text = (props) => {
-  const { children } = props;
+const Text = ({ children }) => {
   return (
     <>
       <p>{children}</p>

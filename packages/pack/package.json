@@ -5,13 +5,16 @@
   "author": "muhimron90 <muh.imron90@gmail.com>",
   "homepage": "https://github.com/muhimron90/muhi_ui/tree/master/packages/pack#readme",
   "license": "MIT",
-  "main": "lib/pack.js",
+  "main": "dist/pack.cjs.js",
+  "module": "dist/pack.esm.js",
+  "src": "lib/pack.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
   },
   "files": [
-    "lib"
+    "lib",
+    "dist"
   ],
   "publishConfig": {
     "access": "public"
@@ -21,7 +24,7 @@
     "url": "git+https://github.com/muhimron90/muhi_ui.git"
   },
   "scripts": {
-    "build" : "builder",
+    "build": "builder",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {

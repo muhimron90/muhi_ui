@@ -10,4 +10,3 @@ import { Button } from '../lib/m-button';
     <Button>MyButton</Button>
   </Story>
 </Preview>
-

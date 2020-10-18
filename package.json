@@ -2,14 +2,15 @@
   "name": "muhi_ui",
   "version": "1.0.0",
   "private": "true",
-  "description": "package components",
+  "description": "Muhi UI components React",
   "main": "index.js",
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "newlib": "lerna create @muhi-ui/builder --yes",
     "add:lib": "lerna add @muhi-ui/m-button --scope=@muhi-ui/pack && lerna add @muhi-ui/m-text --scope=@muhi-ui/pack",
-    "add:modules": "lerna add @rollup/plugin-commonjs --scope=@muhi-ui/builder",
+    "add:modules": "lerna add rollup-plugin-postcss --scope=@muhi-ui/builder",
     "clean": "lerna clean --yes",
+    "clean:dist": "lerna exec --scope {@muhi-ui/pack,@muhi-ui/m-button,@muhi-ui/m-text} -- rm -rf dist/*",
     "pack:lib": "lerna add prop-types --dev --scope '{@muhi-ui/m-button,@muhi-ui/m-text}'",
     "peer:lib": "lerna add react@16.x --peer --scope '{@muhi-ui/m-button,@muhi-ui/m-text}'",
     "build:lib": "lerna add @muhi-ui/builder --dev --scope '{@muhi-ui/pack,@muhi-ui/m-button,@muhi-ui/m-text}'",
@@ -17,7 +18,7 @@
     "build:test": "lerna run build --scope {@muhi-ui/m-button,@muhi-ui/m-text}",
     "sb:docs": "start-storybook -p 5050",
     "sb:build": "build-storybook",
-    "sb:deploy" : "npm run sb:build && gh-pages -d storybook-static",
+    "sb:deploy": "npm run sb:build && gh-pages -d storybook-static",
     "test": "echo \"Error: no test specified\" && exit 1",
     "cm": "cz",
     "commitzen": "npx commitizen init cz-conventional-changelog --save-dev --save-exact",
@@ -28,9 +29,13 @@
     "type": "git",
     "url": "git+https://github.com/muhimron90/muhi_ui.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "react",
+    "components-ui",
+    "Muhi-UI"
+  ],
+  "author": "Muhamad imron",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/muhimron90/muhi_ui/issues"
   },
@@ -40,6 +45,7 @@
     "@babel/plugin-transform-react-jsx": "^7.12.1",
     "@mdx-js/loader": "^1.6.18",
     "@storybook/addon-actions": "^6.0.26",
+    "@storybook/addon-controls": "^6.0.26",
     "@storybook/addon-docs": "^6.0.26",
     "@storybook/addon-essentials": "^6.0.26",
     "@storybook/addon-links": "^6.0.26",

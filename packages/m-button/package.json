@@ -6,13 +6,16 @@
   "author": "muhimron90 <muh.imron90@gmail.com>",
   "homepage": "https://github.com/muhimron90/muhi_ui/tree/master/packages/m-button#readme",
   "license": "ISC",
-  "main": "lib/m-button.js",
+  "main": "dist/m-button.cjs.js",
+  "module": "dist/m-button.esm.js",
+  "src": "lib/m-button.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
   },
   "files": [
-    "lib"
+    "lib",
+    "dist"
   ],
   "publishConfig": {
     "access": "public"
