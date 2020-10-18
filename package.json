@@ -6,14 +6,24 @@
   "main": "index.js",
   "scripts": {
     "bootstrap": "lerna bootstrap",
+    "newlib": "lerna create @muhi-ui/builder --yes",
+    "add:lib": "lerna add @muhi-ui/m-button --scope=@muhi-ui/pack && lerna add @muhi-ui/m-text --scope=@muhi-ui/pack",
+    "add:modules": "lerna add @rollup/plugin-commonjs --scope=@muhi-ui/builder",
+    "clean": "lerna clean --yes",
+    "pack:lib": "lerna add prop-types --dev --scope '{@muhi-ui/m-button,@muhi-ui/m-text}'",
+    "peer:lib": "lerna add react@16.x --peer --scope '{@muhi-ui/m-button,@muhi-ui/m-text}'",
+    "build:lib": "lerna add @muhi-ui/builder --dev --scope '{@muhi-ui/pack,@muhi-ui/m-button,@muhi-ui/m-text}'",
+    "build": "lerna run build",
+    "build:test": "lerna run build --scope {@muhi-ui/m-button,@muhi-ui/m-text}",
+    "sb:docs": "start-storybook -p 5050",
+    "sb:build": "build-storybook",
+    "sb:deploy" : "npm run sb:build && gh-pages -d storybook-static",
     "test": "echo \"Error: no test specified\" && exit 1",
     "cm": "cz",
-    "commitzen": "npx commitizen init cz-conventional-changelog --save-dev --save-exact"
+    "commitzen": "npx commitizen init cz-conventional-changelog --save-dev --save-exact",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
-  "workspaces": [
-    "packages/**",
-    "example/*"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/muhimron90/muhi_ui.git"
@@ -26,10 +36,22 @@
   },
   "homepage": "https://github.com/muhimron90/muhi_ui#readme",
   "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/plugin-transform-react-jsx": "^7.12.1",
+    "@mdx-js/loader": "^1.6.18",
+    "@storybook/addon-actions": "^6.0.26",
+    "@storybook/addon-docs": "^6.0.26",
+    "@storybook/addon-essentials": "^6.0.26",
+    "@storybook/addon-links": "^6.0.26",
+    "@storybook/react": "^6.0.26",
+    "@storybook/source-loader": "^6.0.26",
+    "babel-loader": "^8.1.0",
     "commitizen": "^4.2.1",
     "cz-conventional-changelog": "^3.3.0",
+    "gh-pages": "^3.1.0",
     "husky": "^4.3.0",
-    "lerna": "^3.22.1"
+    "lerna": "^3.22.1",
+    "react-is": "^16.13.1"
   },
   "husky": {
     "hooks": {
@@ -49,5 +71,6 @@
       "defaultBody": "",
       "defaultIssues": ""
     }
-  }
+  },
+  "dependencies": {}
 }
