@@ -40,5 +40,5 @@
     "rollup": "^2.32.0",
     "rollup-plugin-postcss": "^3.1.8"
   },
-  "gitHead": "2b6c860a7095127e9c03ce95267569eabc1473e8"
+  "gitHead": "d207f0023c38ed8c792280acf076d9b7c86effe4"
 }
