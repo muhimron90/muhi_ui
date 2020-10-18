@@ -19,7 +19,7 @@
     "publish": "lerna publish",
     "publish:git": "lerna publish from-git",
     "publish:pack": "lerna publish from-package --yes",
-    "np": "np --contents=dist --no-cleanup",
+    "np": "np --contents=dist --no-tests",
     "sb:docs": "start-storybook -p 5050",
     "sb:build": "build-storybook",
     "sb:deploy": "npm run sb:build && gh-pages -d storybook-static",
