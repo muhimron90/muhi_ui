@@ -24,7 +24,7 @@
     "sb:build": "build-storybook",
     "sb:deploy": "npm run sb:build && gh-pages -d storybook-static",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cm": "git cz --hook",
+    "cm": "cz",
     "commitzen": "npx commitizen init cz-conventional-changelog --save-dev --save-exact",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
