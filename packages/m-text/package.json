@@ -1,6 +1,6 @@
 {
   "name": "@muhi-ui/m-text",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "text components",
   "keywords": [],
   "author": "muhimron90 <muh.imron90@gmail.com>",
@@ -32,7 +32,7 @@
     "url": "https://github.com/muhimron90/muhi_ui/issues"
   },
   "devDependencies": {
-    "@muhi-ui/builder": "^1.0.3",
+    "@muhi-ui/builder": "^1.0.4",
     "prop-types": "^15.7.2",
     "react": "^16.14.0"
   },
