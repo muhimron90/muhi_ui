@@ -1,6 +1,6 @@
 {
   "name": "@muhi-ui/pack",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "packages component",
   "author": "muhimron90 <muh.imron90@gmail.com>",
   "homepage": "https://github.com/muhimron90/muhi_ui/tree/master/packages/pack#readme",
@@ -31,10 +31,10 @@
     "url": "https://github.com/muhimron90/muhi_ui/issues"
   },
   "dependencies": {
-    "@muhi-ui/m-button": "^1.0.1",
-    "@muhi-ui/m-text": "^1.0.1"
+    "@muhi-ui/m-button": "^1.0.2",
+    "@muhi-ui/m-text": "^1.0.2"
   },
   "devDependencies": {
-    "@muhi-ui/builder": "^1.0.1"
+    "@muhi-ui/builder": "^1.0.2"
   }
 }
