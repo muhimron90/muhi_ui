@@ -1,0 +1,12 @@
+import { Meta, Story, Preview } from '@storybook/addon-docs/blocks';
+import { Text } from '../lib/m-text';
+
+<Meta title="Text" component={Text} />;
+
+# Text
+
+<Preview>
+  <Story name="default">
+    <Text>Hello JS</Text>
+  </Story>
+</Preview>

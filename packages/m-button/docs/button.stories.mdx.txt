@@ -1,0 +1,13 @@
+import { Meta, Story, Preview } from '@storybook/addon-docs/blocks';
+import { Button } from '../lib/m-button';
+
+<Meta title="Button" component={Button} />;
+
+# Button
+
+<Preview>
+  <Story name="default">
+    <Button>MyButton</Button>
+  </Story>
+</Preview>
+
