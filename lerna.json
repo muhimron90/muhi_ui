@@ -4,6 +4,10 @@
   "hoist": true,
   "stream": true,
   "command": {
+    "publish": {
+      "registry": "https://npm.pkg.github.com",
+      "npmClient": "npm"
+    },
     "bootstrap": {
       "npmClientArgs": ["--no-package-lock"]
     }

@@ -1,6 +1,6 @@
 {
   "name": "@muhi-ui/builder",
-  "version": "1.0.2",
+  "version": "1.0.3-alpha.2+6d06874",
   "description": "Build Packages",
   "keywords": [],
   "author": "muhimron90 <muh.imron90@gmail.com>",
@@ -40,5 +40,5 @@
     "rollup": "^2.32.0",
     "rollup-plugin-postcss": "^3.1.8"
   },
-  "gitHead": "bdc4df3506edd42caa063308ca8bafaf6049cefc"
+  "gitHead": "6d068742323a0feb02cb867754684a99e7d139bf"
 }
